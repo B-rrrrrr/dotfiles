@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DIR="$HOME/Pictures/Wallpapers"
+
+# pick wallpaper
+WALLPAPER=$(find "$DIR" -type f | wofi -dmenu -i -p "Wallpaper")
+
+[ -z "$WALLPAPER" ] && exit 0
+
+# set wallpaper
+awww img --transition-type outer "$WALLPAPER"
+
+# generate pywal colors
+wal -i "$WALLPAPER"
+

@@ -1,0 +1,15 @@
+@import "/home/yggdrasil/.cache/wal/colors-waybar.css";
+
+window {
+        background-color: @background;
+        color: @foreground;
+}
+
+#entry {
+        background-color: transparent;
+}
+
+#entry:selected {
+        background-color: @color4;
+        color: @background;
+}

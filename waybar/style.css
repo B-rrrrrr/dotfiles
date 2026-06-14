@@ -1,0 +1,20 @@
+@import "/home/yggdrasil/.cache/wal/colors-waybar.css";
+
+* {
+	font-family: JetBrains Mono;
+	font-size: 12px;
+}
+
+window#waybar {
+	background: @background;
+	color: @foreground;
+}
+
+#workspaces button {
+	color: @foreground;
+}
+
+#workspaces button.active {
+	background: @color4;
+	color: @background;
+}
