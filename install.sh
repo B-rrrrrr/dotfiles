@@ -20,7 +20,7 @@ sudo systemctl enable --now NetworkManager
 
 systemctl --user enable pipewire pipewire-pulse wireplumber
 
-mkdir -p ~/.config ~/.local/bin ~/Pictures
+mkdir -p ~/.config ~/.local/bin
 
 rm -rf ~/.config/hypr ~/.config/waybar ~/.config/wofi ~/.config/kitty
 
@@ -29,7 +29,7 @@ ln -sf ~/dotfiles/waybar ~/.config/waybar
 ln -sf ~/dotfiles/wofi ~/.config/wofi
 ln -sf ~/dotfiles/kitty ~/.config/kitty
 
-ln -sf ~/dotfiles/Wallpapers ~/Pictures/Wallpapers
+ln -sfn ~/dotfiles/Wallpapers ~/Pictures/Wallpapers
 
 ln -sf ~/dotfiles/bin/wallpaper ~/.local/bin/wallpaper
 chmod +x ~/.local/bin/wallpaper
