@@ -5,6 +5,7 @@ sudo pacman -S --needed \
   wofi \
   kitty \
   git \
+  awww \
   pipewire \
   pipewire-pulse \
   wireplumber \
