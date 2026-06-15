@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="$HOME/Pictures/Wallpapers"
+DIR="$HOME/dotfiles/Wallpapers"
 
 # pick wallpaper
 WALLPAPER=$(find "$DIR" -type f | wofi -dmenu -i -p "Wallpaper")
