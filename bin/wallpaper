@@ -13,3 +13,8 @@ awww img --transition-type outer "$WALLPAPER"
 # generate pywal colors
 wal -i "$WALLPAPER"
 
+cp ~/.cache/wal/colors-waybar.css \
+   ~/dotfiles/waybar/colors-waybar.css
+
+pkill waybar
+waybar &
