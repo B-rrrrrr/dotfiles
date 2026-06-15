@@ -21,7 +21,7 @@ sudo pacman -S --needed \
 sudo systemctl enable --now NetworkManager
 
 systemctl --user enable pipewire pipewire-pulse wireplumber
-systemctl --user enable tlp
+sudo systemctl enable --now tlp.service
 
 mkdir -p ~/.config ~/.local/bin
 
