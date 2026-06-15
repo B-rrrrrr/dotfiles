@@ -15,11 +15,13 @@ sudo pacman -S --needed \
   firefox \
   grim slurp \
   wl-clipboard \
-  mako
+  mako \
+  tlp
 
 sudo systemctl enable --now NetworkManager
 
 systemctl --user enable pipewire pipewire-pulse wireplumber
+systemctl --user enable tlp
 
 mkdir -p ~/.config ~/.local/bin
 
