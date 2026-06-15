@@ -29,7 +29,7 @@ ln -sf ~/dotfiles/waybar ~/.config/waybar
 ln -sf ~/dotfiles/wofi ~/.config/wofi
 ln -sf ~/dotfiles/kitty ~/.config/kitty
 
-ln -s ~/dotfiles/Wallpapers ~/Pictures/Wallpapers
+ln -sf ~/dotfiles/Wallpapers ~/Pictures/Wallpapers
 
 ln -sf ~/dotfiles/bin/wallpaper ~/.local/bin/wallpaper
 chmod +x ~/.local/bin/wallpaper
