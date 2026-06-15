@@ -1,5 +1,6 @@
 sudo pacman -S --needed \
   networkmanager \
+  nm-connection-editor \
   hyprland \
   waybar \
   wofi \
@@ -16,7 +17,8 @@ sudo pacman -S --needed \
   grim slurp \
   wl-clipboard \
   mako \
-  tlp
+  tlp \
+  upower
 
 sudo systemctl enable --now NetworkManager
 
